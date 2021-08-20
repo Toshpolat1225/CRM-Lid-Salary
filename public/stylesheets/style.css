@@ -1,0 +1,81 @@
+.auth-buttons {
+  width: 100% !important;
+}
+
+nav.nav-pills {
+  width: 200px;
+}
+
+a {
+  text-decoration: none !important;
+}
+.row {
+  --bs-gutter-x: 1rem !important;
+}
+
+.btnEdit {
+  width: auto !important;
+  line-height: 16px !important;
+}
+
+.btnOpen {
+  width: 100%;
+}
+
+.errorAlert {
+  width: 100%;
+  background: red;
+  opacity: 0.5;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 4px;
+}
+/* ====================================================================== salary page */
+.data{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.salary-card{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.salary-card .data{
+  display: flex;
+  justify-content: space-around;
+}
+.data_old {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.data_new {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.name{
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.price{
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+.numbers {
+ text-align: start;
+ padding-right: 25px !important  ;
+ font-weight: 500;
+ font-size: 18px;
+}
+.tr_num{
+  font-size: 18px;
+}

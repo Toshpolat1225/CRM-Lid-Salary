@@ -1,0 +1,26 @@
+<div class="cardCategory" style="position: relative;:">
+<ul class="navbar-nav ml-auto" style="position: absolute; right: 40px; font-size: 25px;">
+  <li class="nav-item">
+    <a class="nav-link" href="/admin/lids/lidCategory/add">
+      <i class="fas fa-plus"></i>
+    </a>
+  </li>
+</ul>
+
+
+{{#if lids.length}}
+<div class="row">
+  {{#each lids}}
+  <div class="col-sm-3" style="margin: 20px;">
+    <div class="card " style=" width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title"><a href="/admin/lids/lidCategory/{{id}}">{{name}}</a></h5>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+{{else}}
+<h2>lidCategory is empty</h2>
+{{/if}}
+</div>
