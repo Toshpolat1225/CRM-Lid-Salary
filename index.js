@@ -2,8 +2,6 @@ const express = require("express");
 const mongoose = require("mongoose");
 const csrf = require("csurf");
 const flash = require("connect-flash");
-// const MONGODB_URI =
-//   "mongodb+srv://CRM:KEqphP8g2kEEIQTe@cluster0.svpdo.mongodb.net/olmaliq";
 
 
 const MONGODB_URI = 'mongodb+srv://CRM:4LO3XMlEdzlDseIB@cluster0.sn5ny.mongodb.net/crm'
